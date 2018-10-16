@@ -17,7 +17,7 @@ h3 {
 }
 
 #main {
-	margin: 35px auto;
+	margin: 35px auto 0;
 }
 
 #title {
@@ -81,4 +81,16 @@ li {
 
 #tribute-link {
 	text-decoration: none;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.social img {
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
 }
